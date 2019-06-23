@@ -57,6 +57,7 @@ module.exports = {
 
   twitterHandle: '@kaka_ruto',
   googleAnalyticsID: 'UA-142576526-1',
+  googleTagManagerID: 'GTM-K44TV88',
 
   navHeight: 100,
 
