@@ -2,4 +2,13 @@
 title: 'Get In Touch'
 ---
 
-Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!
+I am currently open to new opportunities. I am more tilted towards backend
+engineering(designing and implementing APIs).
+
+Preferred tech: Ruby, Ruby on Rails, Golang, GraphQL
+
+I am also open to relocate.
+
+And if you just want to say hi, feel free! My inbox is open :)
+
+'#positivityalltheway
