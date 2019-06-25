@@ -13,5 +13,5 @@ tech:
 show: 'true'
 ---
 
-Nipishe is a Rails + GraphQL starter kit template that shoips with the most
+Nipishe is a Rails + GraphQL starter kit template that ships with the most
 common authentication, authorization and other user account management features
