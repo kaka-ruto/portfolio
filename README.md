@@ -1,14 +1,8 @@
-# V4
+# Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status)](https://app.netlify.com/sites/brittanychiang/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fc383a39-0122-4cae-9b84-322835fb91ca/deploy-status)](https://app.netlify.com/sites/borenho/deploys)
 
-The fourth iteration of my personal site built with [Gatsby](https://www.gatsbyjs.org/) and hosted with [Netlify](https://www.netlify.com/).
-
-> 📢 **PSA for those who want to fork or copy this repo and use it for their own site:**
->
-> Please be a decent person and give me proper credit by linking back to my website! Refer to this handy [quora post](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) if you're not sure.
-
-👀 [Looking for v3?](https://bchiang7.github.io/)
+Built with [Gatsby](https://www.gatsbyjs.org/) and hosted with [Netlify](https://www.netlify.com/).
 
 ## 🚀 Quick Start
 
