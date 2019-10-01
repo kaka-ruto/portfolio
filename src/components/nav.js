@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { throttle } from '@utils';
-import { navLinks, navHeight } from '@config';
+import { navLinks, navHeight, blogUrl } from '@config';
 import { Menu } from '@components';
 import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
@@ -126,6 +126,15 @@ const HamburgerInner = styled.div`
     transition: ${props => (props.menuOpen ? theme.hamAfterActive : theme.hamAfter)};
   }
 `;
+const Blog = styled.div`
+  display: flex;
+  position: absolute;
+  left: 90px;
+  top: 15px;
+`;
+const BlogLink = styled.a`
+  font-size: ${fontSizes.smallish};
+`;
 const NavLinks = styled.div`
   display: flex;
   align-items: center;
@@ -242,6 +251,18 @@ class Nav extends Component {
                     <IconLogo />
                   </LogoLink>
                 </Logo>
+              </CSSTransition>
+            )}
+          </TransitionGroup>
+
+          <TransitionGroup>
+            {isMounted && (
+              <CSSTransition classNames="facedown" timeout={3000}>
+                <Blog>
+                  <BlogLink href={blogUrl} target="_blank" rel="nofollow noopener noreferrer">
+                    Blog
+                  </BlogLink>
+                </Blog>
               </CSSTransition>
             )}
           </TransitionGroup>
