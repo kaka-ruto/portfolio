@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { throttle } from '@utils';
-import { navLinks, navHeight, blogUrl } from '@config';
+import { navLinks, navHeight, blogUrl, coursesUrl } from '@config';
 import { Menu } from '@components';
 import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
@@ -135,6 +135,15 @@ const Blog = styled.div`
 const BlogLink = styled.a`
   font-size: ${fontSizes.smallish};
 `;
+const Courses = styled.div`
+  display: flex;
+  position: absolute;
+  left: 150px;
+  top: 15px;
+`;
+const CoursesLink = styled.a`
+  font-size: ${fontSizes.smallish};
+`;
 const NavLinks = styled.div`
   display: flex;
   align-items: center;
@@ -263,6 +272,18 @@ class Nav extends Component {
                     Blog
                   </BlogLink>
                 </Blog>
+              </CSSTransition>
+            )}
+          </TransitionGroup>
+
+          <TransitionGroup>
+            {isMounted && (
+              <CSSTransition classNames="facedown" timeout={3000}>
+                <Courses>
+                  <CoursesLink href={coursesUrl} target="_blank" rel="nofollow noopener noreferrer">
+                    Courses
+                  </CoursesLink>
+                </Courses>
               </CSSTransition>
             )}
           </TransitionGroup>

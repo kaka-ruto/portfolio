@@ -6,6 +6,7 @@ module.exports = {
     'Collins Ruto, Kaka Ruto, borenho, software engineer, software developer, backend engineer, ruby developer, Golang',
   siteUrl: 'https://collinsruto.com',
   blogUrl: 'https://blog.collinsruto.com',
+  coursesUrl: 'https://courses.collinsruto.com',
   siteLanguage: 'en_US',
 
   googleVerification: 'CHkeh5av_lDWs6zzQ8TpB4KDyQcmm7xxI4CYUKRGaM0',
