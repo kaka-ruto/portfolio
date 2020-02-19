@@ -2,13 +2,12 @@
 title: 'Get In Touch'
 ---
 
-I am currently open to new opportunities. I am more tilted towards backend
-engineering(designing and implementing APIs).
+Need an API/microservice that's going to be consumed by both the web and mobile?
 
-Preferred tech: Ruby, Ruby on Rails, Golang, GraphQL
+Or have an existing backend that needs to be extended/refactored in Ruby?
 
-I am also open to relocate.
+I'm game!
 
-And if you just want to say hi, feel free! My inbox is open :)
+If you just want to say hi, feel free. My inbox is open! :)
 
 '#positivityalltheway
