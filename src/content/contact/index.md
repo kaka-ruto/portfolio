@@ -8,6 +8,6 @@ Or have an existing backend that needs to be extended/refactored in Ruby?
 
 I'm game!
 
-If you just want to say hi, feel free. My inbox is open! :)
+Or if you just want to say hi, feel free. My inbox is open! :)
 
 '#positivityalltheway

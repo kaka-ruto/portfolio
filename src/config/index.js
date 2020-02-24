@@ -13,7 +13,7 @@ module.exports = {
 
   name: 'Collins Ruto',
   location: 'Nairobi, Kenya',
-  email: 'borecollins@gmail.com',
+  email: 'collins@collinsruto.com',
   github: 'https://github.com/borenho/',
   socialMedia: [
     {
