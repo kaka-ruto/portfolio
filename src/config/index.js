@@ -9,7 +9,7 @@ module.exports = {
   coursesUrl: 'https://courses.collinsruto.com',
   siteLanguage: 'en_US',
 
-  googleVerification: 'CHkeh5av_lDWs6zzQ8TpB4KDyQcmm7xxI4CYUKRGaM0',
+  googleVerification: 'process.env.GOOGLE_VERIFICATION',
 
   name: 'Collins Ruto',
   location: 'Nairobi, Kenya',
@@ -58,8 +58,8 @@ module.exports = {
   ],
 
   twitterHandle: '@kaka_ruto',
-  googleAnalyticsID: 'UA-142576526-1',
-  googleTagManagerID: 'GTM-K44TV88',
+  googleAnalyticsID: 'process.env.GOOGLE_ANALYTICS_ID',
+  googleTagManagerID: 'process.env.GOOGLE_TAG_MANAGER_ID',
 
   navHeight: 100,
 

@@ -1,3 +1,5 @@
+require('dotenv').config(); // Create a .env file in your project dir and add your env variables
+
 const config = require('./src/config');
 
 module.exports = {
