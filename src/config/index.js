@@ -6,14 +6,14 @@ module.exports = {
     'Collins Ruto, Kaka Ruto, borenho, software engineer, software developer, backend engineer, ruby developer, Golang',
   siteUrl: 'https://collinsruto.com',
   blogUrl: 'https://blog.collinsruto.com',
-  coursesUrl: 'https://courses.collinsruto.com',
+  coursesUrl: 'https://www.codingshade.com',
   siteLanguage: 'en_US',
 
   googleVerification: 'process.env.GOOGLE_VERIFICATION',
 
   name: 'Collins Ruto',
   location: 'Nairobi, Kenya',
-  email: 'collins@collinsruto.com',
+  email: 'kaka@collinsruto.com',
   github: 'https://github.com/borenho/',
   socialMedia: [
     {
