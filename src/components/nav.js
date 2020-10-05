@@ -126,24 +126,6 @@ const HamburgerInner = styled.div`
     transition: ${props => (props.menuOpen ? theme.hamAfterActive : theme.hamAfter)};
   }
 `;
-const Blog = styled.div`
-  display: flex;
-  position: absolute;
-  left: 90px;
-  top: 15px;
-`;
-const BlogLink = styled.a`
-  font-size: ${fontSizes.smallish};
-`;
-const Courses = styled.div`
-  display: flex;
-  position: absolute;
-  left: 150px;
-  top: 15px;
-`;
-const CoursesLink = styled.a`
-  font-size: ${fontSizes.smallish};
-`;
 const NavLinks = styled.div`
   display: flex;
   align-items: center;
@@ -157,13 +139,13 @@ const NavList = styled.ol`
 const NavListItem = styled.li`
   margin: 0 10px;
   position: relative;
-  font-size: ${fontSizes.smallish};
+  font-size: ${fontSizes.medium};
   counter-increment: item 1;
   &:before {
     content: '0' counter(item) '.';
     text-align: right;
     color: ${colors.green};
-    font-size: ${fontSizes.xsmall};
+    font-size: ${fontSizes.small};
   }
 `;
 const NavLink = styled(AnchorLink)`
@@ -266,30 +248,6 @@ class Nav extends Component {
 
           <TransitionGroup>
             {isMounted && (
-              <CSSTransition classNames="facedown" timeout={3000}>
-                <Blog>
-                  <BlogLink href={blogUrl} target="_blank" rel="nofollow noopener noreferrer">
-                    Blog
-                  </BlogLink>
-                </Blog>
-              </CSSTransition>
-            )}
-          </TransitionGroup>
-
-          <TransitionGroup>
-            {isMounted && (
-              <CSSTransition classNames="facedown" timeout={3000}>
-                <Courses>
-                  <CoursesLink href={coursesUrl} target="_blank" rel="nofollow noopener noreferrer">
-                    Courses
-                  </CoursesLink>
-                </Courses>
-              </CSSTransition>
-            )}
-          </TransitionGroup>
-
-          <TransitionGroup>
-            {isMounted && (
               <CSSTransition classNames="fade" timeout={3000}>
                 <Hamburger onClick={this.toggleMenu}>
                   <HamburgerBox>
@@ -314,6 +272,21 @@ class Nav extends Component {
                   ))}
               </TransitionGroup>
             </NavList>
+
+            <TransitionGroup>
+              {isMounted && (
+                <CSSTransition classNames="fadedown" timeout={3000}>
+                  <div style={{ transitionDelay: `600ms` }}>
+                    <ResumeLink
+                      href="/resume.pdf"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer">
+                      Resume
+                    </ResumeLink>
+                  </div>
+                </CSSTransition>
+              )}
+            </TransitionGroup>
           </NavLinks>
         </Navbar>
 

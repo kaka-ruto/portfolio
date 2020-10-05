@@ -8,7 +8,6 @@ const { colors, fontSizes, fonts } = theme;
 
 const JobsContainer = styled(Section)`
   position: relative;
-  max-width: 700px;
 `;
 const TabsContainer = styled.div`
   display: flex;
@@ -67,7 +66,7 @@ const Tab = styled.button`
   text-align: left;
   white-space: nowrap;
   font-family: ${fonts.SFMono};
-  font-size: ${fontSizes.smallish};
+  font-size: ${fontSizes.medium};
   color: ${props => (props.isActive ? colors.green : colors.lightGrey)};
   ${media.tablet`padding: 0 15px 2px;`};
   ${media.thone`
@@ -136,7 +135,7 @@ const TabContent = styled.div`
     padding: 0;
     margin: 0;
     list-style: none;
-    font-size: ${fontSizes.large};
+    font-size: ${fontSizes.xlarge};
     li {
       position: relative;
       padding-left: 30px;
@@ -145,6 +144,7 @@ const TabContent = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
+        top: 3px;
         color: ${colors.green};
         line-height: ${fontSizes.xlarge};
       }

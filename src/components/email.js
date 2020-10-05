@@ -8,7 +8,7 @@ const { colors, fontSizes, fonts } = theme;
 const EmailContainer = styled.div`
   width: 40px;
   position: fixed;
-  bottom: 0;
+  bottom: 25px;
   right: 40px;
   color: ${colors.lightSlate};
   ${media.desktop`right: 25px;`};
@@ -34,7 +34,7 @@ const EmailLinkWrapper = styled.div`
 `;
 const EmailLink = styled.a`
   font-family: ${fonts.SFMono};
-  font-size: ${fontSizes.xsmall};
+  font-size: ${fontSizes.medium};
   letter-spacing: 0.5px;
   writing-mode: vertical-rl;
   margin: 20px auto;

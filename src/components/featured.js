@@ -203,7 +203,7 @@ const Featured = ({ data }) => {
 
   return (
     <FeaturedContainer id="projects">
-      <Heading ref={revealTitle}>Some Things I&apos;ve Built</Heading>
+      <Heading ref={revealTitle}>Portfolio</Heading>
 
       <div>
         {featuredProjects &&
@@ -214,7 +214,7 @@ const Featured = ({ data }) => {
             return (
               <Project key={i} ref={el => (revealProjects.current[i] = el)}>
                 <ContentContainer>
-                  <FeaturedLabel>Featured Project</FeaturedLabel>
+                  <FeaturedLabel>Client Project</FeaturedLabel>
                   <ProjectName>
                     {external ? (
                       <a

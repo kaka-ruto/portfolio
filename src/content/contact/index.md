@@ -1,13 +1,11 @@
 ---
-title: 'Get In Touch'
+title: 'Get in Touch'
 ---
 
-Need an API/microservice that's going to be consumed by both the web and mobile?
+For about 2 hours a day, I am consulting for GraphQL and Ruby on Rails projects for $80/hr
 
-Or have an existing backend that needs to be extended/refactored in Ruby?
+Contact me below for a booking.
 
-I'm game!
-
-Or if you just want to say hi, feel free. My inbox is open! :)
+And if you just want to say hi or if you have any question, my inbox is open! :)
 
 '#positivityalltheway

@@ -58,7 +58,7 @@ const Contact = ({ data }) => {
       <div dangerouslySetInnerHTML={{ __html: html }} />
 
       <EmailLink href={`mailto:${email}`} target="_blank" rel="nofollow noopener noreferrer">
-        Say Hello
+        Contact Kaka
       </EmailLink>
     </ContactContainer>
   );

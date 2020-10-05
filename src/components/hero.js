@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { email } from '@config';
 import styled from 'styled-components';
@@ -45,13 +46,12 @@ const Subtitle = styled.h3`
 `;
 const Blurb = styled.div`
   margin-top: 25px;
-  width: 50%;
-  max-width: 500px;
+  font-size: ${fontSizes.h3};
   a {
     ${mixins.inlineLink};
   }
 `;
-const EmailLink = styled.a`
+const EmailLink = styled(AnchorLink)`
   ${mixins.bigButton};
   margin-top: 50px;
 `;
@@ -76,7 +76,7 @@ const Hero = ({ data }) => {
   );
   const five = () => (
     <div style={{ transitionDelay: '500ms' }}>
-      <EmailLink href={`mailto:${email}`}>Get In Touch</EmailLink>
+      <EmailLink href='#contact'>Get In Touch</EmailLink>
     </div>
   );
 
