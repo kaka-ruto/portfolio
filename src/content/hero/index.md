@@ -2,11 +2,13 @@
 title: 'Hi, my name is'
 name: 'Collins Ruto'
 subtitle: 'I write code for the internet.'
-contactText: 'Get In Touch'
+contactText: 'Hire'
 ---
 
-I'm a Software Engineer - I design, I write, I code, I build. Code is poetry.
+I'm a Software Engineer and Internet Entrepreneur
 
-I design and implement scalable, highly available APIs using Ruby and GraphQL, to be consumed in the web and mobile.
+I advance technology by contributing to open source
 
-I also teach Ruby on Rails and GraphQL at [CodingShade](https://www.codingshade.com)
+I am a creator, instructor, mentor and consultant
+
+I teach Ruby on Rails and GraphQL at [CodingShade](https://www.codingshade.com) and consult for the same technologies

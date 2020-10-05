@@ -17,7 +17,8 @@ const FlexContainer = styled.div`
 `;
 const ContentContainer = styled.div`
   width: 60%;
-  max-width: 480px;
+  // max-width: 480px;
+font-size: ${fontSizes.xxlarge};
   ${media.tablet`width: 100%;`};
   a {
     ${mixins.inlineLink};
@@ -34,15 +35,15 @@ const Skill = styled.li`
   margin-bottom: 10px;
   padding-left: 20px;
   font-family: ${fonts.SFMono};
-  font-size: ${fontSizes.smallish};
+  font-size: ${fontSizes.medium};
   color: ${colors.slate};
   &:before {
     content: '▹';
     position: absolute;
     left: 0;
     color: ${colors.green};
-    font-size: ${fontSizes.small};
-    line-height: 12px;
+    font-size: ${fontSizes.medium};
+    line-height: 18px;
   }
 `;
 const PicContainer = styled.div`

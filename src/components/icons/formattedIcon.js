@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {
   IconGithub,
   IconLinkedin,
-  IconCodepen,
+  IconStackOverflow,
   IconInstagram,
   IconTwitter,
 } from '@components/icons';
@@ -14,8 +14,8 @@ const FormattedIcon = ({ name }) => {
       return <IconGithub />;
     case 'Linkedin':
       return <IconLinkedin />;
-    case 'Codepen':
-      return <IconCodepen />;
+    case 'StackOverflow':
+      return <IconStackOverflow />;
     case 'Instagram':
       return <IconInstagram />;
     case 'Twitter':

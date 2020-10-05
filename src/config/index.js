@@ -1,11 +1,10 @@
 module.exports = {
   siteTitle: 'Kaka Ruto | Software Engineer',
   siteDescription:
-    'Collins Ruto is a software engineer based in Nairobi, Kenya who specializes in the design and implementation of scalable, highly available APIs in Ruby, Go and GraphQL.',
+    'Collins Ruto is a software engineer based in Nairobi, Kenya who specializes in the design and implementation of scalable, highly available APIs in Ruby, Vue and GraphQL.',
   siteKeywords:
-    'Collins Ruto, Kaka Ruto, borenho, software engineer, software developer, backend engineer, ruby developer, Golang',
+    'Collins Ruto, Kaka Ruto, kaka-ruto, software engineer, software developer, backend engineer, ruby developer, graphQL on rails',
   siteUrl: 'https://collinsruto.com',
-  blogUrl: 'https://blog.collinsruto.com',
   coursesUrl: 'https://www.codingshade.com',
   siteLanguage: 'en_US',
 
@@ -14,27 +13,27 @@ module.exports = {
   name: 'Collins Ruto',
   location: 'Nairobi, Kenya',
   email: 'kaka@collinsruto.com',
-  github: 'https://github.com/borenho/',
+  github: 'https://github.com/kaka-ruto/',
   socialMedia: [
     {
+      name: 'Twitter',
+      url: 'https://twitter.com/kaka_ruto',
+    },
+    {
       name: 'Github',
-      url: 'https://github.com/borenho/',
+      url: 'https://github.com/kaka-ruto/',
+    },
+    {
+      name: 'StackOverflow',
+      url: 'https://stackoverflow.com/users/6488361/kaka-ruto',
     },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/rutocollins/',
     },
     {
-      name: 'Stackoverflow',
-      url: 'https://stackoverflow.com/users/6488361/ruto-collins',
-    },
-    {
       name: 'Instagram',
       url: 'https://www.instagram.com/kaka_ruto_/',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/kaka_ruto',
     },
   ],
 
@@ -48,7 +47,7 @@ module.exports = {
       url: '#jobs',
     },
     {
-      name: 'Work',
+      name: 'Portfolio',
       url: '#projects',
     },
     {

@@ -9,7 +9,7 @@ const { colors } = theme;
 const SocialContainer = styled.div`
   width: 40px;
   position: fixed;
-  bottom: 0;
+  bottom: 25px;
   left: 40px;
   color: ${colors.lightSlate};
   ${media.desktop`left: 25px;`};
