@@ -11,4 +11,4 @@ I advance technology by contributing to open source
 
 I am a creator, instructor, mentor and consultant
 
-I teach Ruby on Rails and GraphQL at [CodingShade](https://www.codingshade.com) and consult for the same technologies
+I teach GraphQL and Ruby on Rails at [GraphQl on Rails](https://www.graphql-on-rails.com) and consult for the same technologies
