@@ -33,7 +33,7 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/kaka_ruto_/',
+      url: 'https://www.instagram.com/kaka_rutoh/',
     },
   ],
 
